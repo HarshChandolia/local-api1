@@ -1,0 +1,39 @@
+[
+    {
+        "qId": 0,
+        "q": "This is question 1. Please select the correct answer.",
+        "ans": [
+            "A. This is option 1 for q1",
+            "B. This is option 2 for q1",
+            "C. This is option 3 for q1",
+            "D. This is option 4 for q1"
+        ],
+        "correctAnsId": 0,
+        "type": "radio"
+    },
+    {
+        "qId": 1,
+        "q": "This is question 2. Please select the correct answer.",
+        "ans": [
+            "A. This is option 1 for q2",
+            "B. This is option 2 for q2",
+            "C. This is option 3 for q2",
+            "D. This is option 4 for q2"
+        ],
+        "correctAnsId": 2,
+        "type": "radio"
+    },
+    {
+        "qId": 2,
+        "q": "This is question 3. Please select 2 answers.",
+        "ans": [
+            "A. This is option 1 for q3",
+            "B. This is option 2 for q3",
+            "C. This is option 3 for q3",
+            "D. This is option 4 for q3",
+            "E. This is option 5 for q3"
+        ],
+        "correctAnsId": [2, 4],
+        "type": "checkbox"
+    }
+  ]
