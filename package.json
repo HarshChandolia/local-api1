@@ -1,0 +1,23 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "description": "This is an API for storing quiz data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshChandolia/local-api1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshChandolia/local-api1/issues"
+  },
+  "homepage": "https://github.com/HarshChandolia/local-api1#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

@@ -1,4 +1,4 @@
-[
+{"quiz": [
     {
         "qId": 0,
         "q": "This is question 1. Please select the correct answer.",
@@ -36,4 +36,4 @@
         "correctAnsId": [2, 4],
         "type": "checkbox"
     }
-  ]
+  ]}
