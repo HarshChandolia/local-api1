@@ -1,39 +1,186 @@
 {"quiz": [
     {
         "qId": 0,
-        "q": "This is question 1. Please select the correct answer.",
+        "q": ["1. What's the output?", 
+            "<br/>",
+            "let c = { greeting: 'Hi!' };", 
+            "let d;", 
+            "d = c;", 
+            "c.greeting = 'Hello';",
+            "console.log(d.greeting)"],
         "ans": [
-            "A. This is option 1 for q1",
-            "B. This is option 2 for q1",
-            "C. This is option 3 for q1",
-            "D. This is option 4 for q1"
+            "A. Hi!",
+            "B. Hello",
+            "C. Undefined",
+            "D. Reference Error",
+            "E: 'greeting' property does not exist"
         ],
-        "correctAnsId": 0,
+        "correctAnsId": 1,
         "type": "radio"
     },
     {
         "qId": 1,
-        "q": "This is question 2. Please select the correct answer.",
+        "q": ["2. What happens when the below code is executed?",
+            "<br/>",
+            "function eat() {",
+              "console.log('Pineapple Pizza!');",
+            "}",
+            "<br/>",
+            "eat.result = 'NO!!';"],
         "ans": [
-            "A. This is option 1 for q2",
-            "B. This is option 2 for q2",
-            "C. This is option 3 for q2",
-            "D. This is option 4 for q2"
+            "A. It gives a reference error",
+            "B. Nothing",
+            "C. It gives a syntax error",
+            "D. 'Pineapple Pizza' is logged on the console"
         ],
-        "correctAnsId": 2,
+        "correctAnsId": 1,
         "type": "radio"
     },
     {
-        "qId": 2,
-        "q": "This is question 3. Please select 2 answers.",
+      "qId": 2,
+      "q": ["3. What's the output?", 
+          "<br/>",
+          "console.log(typeof typeof {name: 'John'})"],
+      "ans": [
+          "A. Undefined",
+          "B. Object",
+          "C. Type Error",
+          "D. String"
+      ],
+      "correctAnsId": 3,
+      "type": "radio"
+    },
+    {
+        "qId": 3,
+        "q": ["4. Which of the following gives an output of '42' (pick all that apply)?"],
         "ans": [
-            "A. This is option 1 for q3",
-            "B. This is option 2 for q3",
-            "C. This is option 3 for q3",
-            "D. This is option 4 for q3",
-            "E. This is option 5 for q3"
+            "A. 32 + '10'",
+            "B. '4' + 2",
+            "C. true + 41",
+            "D. 43 - false",
+            "E. 4 + 2",
+            "F. 42 + '0'"
         ],
-        "correctAnsId": [2, 4],
+        "correctAnsId": [1, 2],
         "type": "checkbox"
+    },      
+    {
+      "qId": 4,
+      "q": ["5. What's the output?", 
+          "<br/>",
+          "[[0, 1], [2, 3]].reduce(", 
+          " (acc, cur) => {", 
+          "   return acc.concat(cur);", 
+          " }, [1, 2],",
+          ");"],
+      "ans": [
+          "A. [0, 1, 2, 3]",
+          "B. 9",
+          "C. [1, 2, 0, 1, 2, 3]",
+          "D. [0, 1, 2, 3, 1, 2]",
+          "E: Syntax Error"
+      ],
+      "correctAnsId": 2,
+      "type": "radio"
+    },
+    {
+      "qId": 5,
+      "q": ["6. What's the output?", 
+          "<br/>",
+          "!!['']", 
+          "!!NaN", 
+          "!!-1", 
+          "!!false"],
+      "ans": [
+          "A. false false true false",
+          "B. true false false true",
+          "C. true false true false",
+          "D. true true true true",
+          "E: false false false false"
+      ],
+      "correctAnsId": 2,
+      "type": "radio"
+    },
+    {
+      "qId": 6,
+      "q": ["7. Which of the following modifies the user object?", 
+          "<br/>",
+          "const user = {",
+          " name: 'John',",
+          "   address: {",
+          "     street: '123 ABC St',",
+          "     city: 'Buffalo'",
+          "   }", 
+          "};", 
+          "<br/>", 
+          "Object.freeze(user);"],
+      "ans": [
+          "A. user.address.street = '321 Jackson St'",
+          "B. delete user.address",
+          "C. user.name = 'Chris'",
+          "D. user.age = 40",
+          "E: A and B"
+      ],
+      "correctAnsId": 0,
+      "type": "radio"
+    },
+    {
+      "qId": 7,
+      "q": ["8. What's the output?", 
+          "<br/>",
+          "async function watchMovie() {",
+            "return await Promise.resolve('I watched a movie');", 
+            "<br/>",
+          "let result = watchMovie();",
+          "console.log(result);"],
+      "ans": [
+          "A. Promise<{pending}>",
+          "B. Undefined",
+          "C. I watched a movie",
+          "D. Promise<{fulfilled}>: I watched a movie"
+      ],
+      "correctAnsId": 0,
+      "type": "radio"
+    },
+    {
+      "qId": 8,
+      "q": ["9. Which of the following modifies the user object?", 
+          "<br/>",
+          "const user = {",
+          "name: 'John',",
+          "address: {",
+            "street: '123 ABC St',",
+            "city: 'Buffalo'",
+            "}", 
+          "};", 
+          "<br/>", 
+          "Object.freeze(user);"],
+      "ans": [
+          "A. user.address.street = '321 Jackson St'",
+          "B. delete user.address",
+          "C. user.name = 'Chris'",
+          "D. user.age = 40",
+          "E: A and B"
+      ],
+      "correctAnsId": 0,
+      "type": "radio"
+    },
+    {
+      "qId": 9,
+      "q": ["10. What's the output?",
+          "<br/>",
+          "function life101(...basics) {",
+            "console.log(typeof basics);",
+          "}",
+          "<br/>",
+          "life101('compassion');"],
+      "ans": [
+          "A. String",
+          "B. Object",
+          "C. Array",
+          "D. Syntax error"
+      ],
+      "correctAnsId": 1,
+      "type": "radio"
     }
   ]}
