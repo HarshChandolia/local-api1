@@ -1,7 +1,8 @@
 {"quiz": [
     {
         "qId": 0,
-        "q": ["1. What's the output? \n",
+        "q": ["1. What's the output?", 
+            "\n",
             "let c = { greeting: 'Hi!' };", 
             "let d;", 
             "d = c;", 
@@ -19,7 +20,8 @@
     },
     {
         "qId": 1,
-        "q": ["2. What happens when the below code is executed? \\n",
+        "q": ["2. What happens when the below code is executed?",
+            "<br/>",
             "function eat() {",
               "console.log('Pineapple Pizza!');",
             "}",
