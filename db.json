@@ -2,7 +2,7 @@
     {
         "qId": 0,
         "q": ["1. What's the output?", 
-            "\n",
+            " ",
             "let c = { greeting: 'Hi!' };", 
             "let d;", 
             "d = c;", 
@@ -21,11 +21,11 @@
     {
         "qId": 1,
         "q": ["2. What happens when the below code is executed?",
-            "<br/>",
+            " ",
             "function eat() {",
               "console.log('Pineapple Pizza!');",
             "}",
-            "<br/>",
+            " ",
             "eat.result = 'NO!!';"],
         "ans": [
             "A. It gives a reference error",
@@ -39,7 +39,7 @@
     {
       "qId": 2,
       "q": ["3. What's the output?", 
-          "<br/>",
+          " ",
           "console.log(typeof typeof {name: 'John'})"],
       "ans": [
           "A. Undefined",
@@ -67,7 +67,7 @@
     {
       "qId": 4,
       "q": ["5. What's the output?", 
-          "<br/>",
+          " ",
           "[[0, 1], [2, 3]].reduce(", 
           " (acc, cur) => {", 
           "   return acc.concat(cur);", 
@@ -86,7 +86,7 @@
     {
       "qId": 5,
       "q": ["6. What's the output?", 
-          "<br/>",
+          " ",
           "!!['']", 
           "!!NaN", 
           "!!-1", 
@@ -104,7 +104,7 @@
     {
       "qId": 6,
       "q": ["7. Which of the following modifies the user object?", 
-          "<br/>",
+          " ",
           "const user = {",
           " name: 'John',",
           "   address: {",
@@ -112,7 +112,7 @@
           "     city: 'Buffalo'",
           "   }", 
           "};", 
-          "<br/>", 
+          " ", 
           "Object.freeze(user);"],
       "ans": [
           "A. user.address.street = '321 Jackson St'",
@@ -127,10 +127,10 @@
     {
       "qId": 7,
       "q": ["8. What's the output?", 
-          "<br/>",
+          " ",
           "async function watchMovie() {",
             "return await Promise.resolve('I watched a movie');", 
-            "<br/>",
+            " ",
           "let result = watchMovie();",
           "console.log(result);"],
       "ans": [
@@ -145,7 +145,7 @@
     {
       "qId": 8,
       "q": ["9. Which of the following modifies the user object?", 
-          "<br/>",
+          " ",
           "const user = {",
           "name: 'John',",
           "address: {",
@@ -153,7 +153,7 @@
             "city: 'Buffalo'",
             "}", 
           "};", 
-          "<br/>", 
+          " ", 
           "Object.freeze(user);"],
       "ans": [
           "A. user.address.street = '321 Jackson St'",
@@ -168,11 +168,11 @@
     {
       "qId": 9,
       "q": ["10. What's the output?",
-          "<br/>",
+          " ",
           "function life101(...basics) {",
             "console.log(typeof basics);",
           "}",
-          "<br/>",
+          " ",
           "life101('compassion');"],
       "ans": [
           "A. String",
