@@ -23,7 +23,7 @@
             "function eat() {",
               "console.log('Pineapple Pizza!');",
             "}",
-            "..........",
+            ".",
             "eat.result = 'NO!!';"],
         "ans": [
             "A. It gives a reference error",
@@ -65,10 +65,9 @@
       "qId": 4,
       "q": ["5. What's the output?", 
           "[[0, 1], [2, 3]].reduce(", 
-          " (acc, cur) => {", 
+          " \t(acc, cur) => {", 
           "   return acc.concat(cur);", 
-          " }, [1, 2],",
-          ");"],
+          " }, [1, 2]);"],
       "ans": [
           "A. [0, 1, 2, 3]",
           "B. 9",
@@ -106,7 +105,7 @@
           "     city: 'Buffalo'",
           "   }", 
           "};", 
-          "..........", 
+          ".", 
           "Object.freeze(user);"],
       "ans": [
           "A. user.address.street = '321 Jackson St'",
@@ -123,7 +122,7 @@
       "q": ["8. What's the output?", 
           "async function watchMovie() {",
             "return await Promise.resolve('I watched a movie');", 
-            "..........",
+            ".",
           "let result = watchMovie();",
           "console.log(result);"],
       "ans": [
@@ -145,7 +144,7 @@
             "city: 'Buffalo'",
             "}", 
           "};", 
-          "..........", 
+          ".", 
           "Object.freeze(user);"],
       "ans": [
           "A. user.address.street = '321 Jackson St'",
@@ -163,7 +162,7 @@
           "function life101(...basics) {",
             "console.log(typeof basics);",
           "}",
-          "..........",
+          ".",
           "life101('compassion');"],
       "ans": [
           "A. String",
