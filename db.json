@@ -23,8 +23,7 @@
             "function eat() {",
               "console.log('Pineapple Pizza!');",
             "}",
-            ".",
-            
+            " ",
             "eat.result = 'NO!!';"],
         "ans": [
             "A. It gives a reference error",
@@ -66,7 +65,7 @@
       "qId": 4,
       "q": ["5. What's the output?", 
           "[[0, 1], [2, 3]].reduce(", 
-          " \t(acc, cur) => {", 
+          " (acc, cur) => {", 
           "   return acc.concat(cur);", 
           " }, [1, 2]);"],
       "ans": [
