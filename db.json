@@ -24,6 +24,7 @@
               "console.log('Pineapple Pizza!');",
             "}",
             " ",
+            " ",
             "eat.result = 'NO!!';"],
         "ans": [
             "A. It gives a reference error",
