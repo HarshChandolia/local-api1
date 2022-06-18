@@ -103,8 +103,7 @@
           "     street: '123 ABC St',",
           "     city: 'Buffalo'",
           "   }", 
-          "};", 
-          ".", 
+          "};",
           "Object.freeze(user);"],
       "ans": [
           "A. user.address.street = '321 Jackson St'",
@@ -121,7 +120,6 @@
       "q": ["8. What's the output?", 
           "async function watchMovie() {",
             "return await Promise.resolve('I watched a movie');", 
-            ".",
           "let result = watchMovie();",
           "console.log(result);"],
       "ans": [
@@ -142,8 +140,7 @@
             "street: '123 ABC St',",
             "city: 'Buffalo'",
             "}", 
-          "};", 
-          ".", 
+          "};",
           "Object.freeze(user);"],
       "ans": [
           "A. user.address.street = '321 Jackson St'",
@@ -161,7 +158,6 @@
           "function life101(...basics) {",
             "console.log(typeof basics);",
           "}",
-          ".",
           "life101('compassion');"],
       "ans": [
           "A. String",
