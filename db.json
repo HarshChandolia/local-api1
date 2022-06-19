@@ -26,7 +26,7 @@
             "eat.result = 'NO!!';"],
         "ans": [
             "A. It gives a reference error",
-            "B. Nothing is logged and the code is fine",
+            "B. Nothing, the code is fine",
             "C. It gives a syntax error",
             "D. 'Pineapple Pizza' is logged on the console"
         ],
