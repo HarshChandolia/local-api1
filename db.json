@@ -133,21 +133,15 @@
     },
     {
       "qId": 8,
-      "q": ["9. Which of the following modifies the user object?", 
-          "const user = {",
-          "name: 'John',",
-          "address: {",
-            "street: '123 ABC St',",
-            "city: 'Buffalo'",
-            "}", 
-          "};",
-          "Object.freeze(user);"],
+      "q": ["9. What's the output?", 
+          "const firstName = 'Tom';",
+          "console.log(firstName());"],
       "ans": [
-          "A. user.address.street = '321 Jackson St'",
-          "B. delete user.address",
-          "C. user.name = 'Chris'",
-          "D. user.age = 40",
-          "E: A and B"
+          "A. TypeError",
+          "B. ReferenceError",
+          "C. SyntaxError",
+          "D. Undefined",
+          "E. Tom"
       ],
       "correctAnsId": 0,
       "type": "radio"
