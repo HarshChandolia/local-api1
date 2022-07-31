@@ -21,7 +21,7 @@
         "qId": 1,
         "q": ["2. What happens when the below code is executed?",
             "function eat() {",
-              "console.log('Pineapple Pizza!');",
+            "console.log('Pineapple Pizza!');",
             "}",
             "eat.result = 'NO!!';"],
         "ans": [
