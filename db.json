@@ -15,9 +15,7 @@
             "E: 'greeting' property does not exist"
         ],
         "correctAnsId": 1,
-        "type": "radio",
-        "paddPos": [],
-        "padd": []
+        "type": "radio"
     },
     {
         "qId": 1,
@@ -48,9 +46,7 @@
           "D. String"
       ],
       "correctAnsId": 3,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     },
     {
         "qId": 3,
@@ -64,9 +60,7 @@
             "F. 42 + '0'"
         ],
         "correctAnsId": [1, 2],
-        "type": "checkbox",
-        "paddPos": [],
-        "padd": []
+        "type": "checkbox"
     },      
     {
       "qId": 4,
@@ -83,9 +77,7 @@
           "E: Syntax Error"
       ],
       "correctAnsId": 2,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     },
     {
       "qId": 5,
@@ -102,9 +94,7 @@
           "E: false false false false"
       ],
       "correctAnsId": 2,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     },
     {
       "qId": 6,
@@ -125,9 +115,7 @@
           "E: A and B"
       ],
       "correctAnsId": 0,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     },
     {
       "qId": 7,
@@ -143,9 +131,7 @@
           "D. Promise<{fulfilled}>: I watched a movie"
       ],
       "correctAnsId": 0,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     },
     {
       "qId": 8,
@@ -160,9 +146,7 @@
           "E. Tom"
       ],
       "correctAnsId": 0,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     },
     {
       "qId": 9,
@@ -178,8 +162,6 @@
           "D. Syntax error"
       ],
       "correctAnsId": 1,
-      "type": "radio",
-      "paddPos": [],
-      "padd": []
+      "type": "radio"
     }
   ]}
