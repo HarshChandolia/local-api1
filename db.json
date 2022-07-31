@@ -32,8 +32,8 @@
         ],
         "correctAnsId": 1,
         "type": "radio",
-        "paddPos": [2],
-        "padd": [8]
+        "paddPos": [2, 3],
+        "padd": [8, 16]
     },
     {
       "qId": 2,
