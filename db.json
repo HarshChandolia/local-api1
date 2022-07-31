@@ -31,7 +31,9 @@
             "D. 'Pineapple Pizza' is logged on the console"
         ],
         "correctAnsId": 1,
-        "type": "radio"
+        "type": "radio",
+        "paddPos": [2],
+        "padd": [8]
     },
     {
       "qId": 2,
